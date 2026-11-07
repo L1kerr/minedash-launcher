@@ -1,0 +1,7 @@
+{
+  "version": "1.4.5",
+  "url": "https://minedash.fun/launcher/MineDash.exe",
+  "sha256": "ed508f30c43f5dfb3865cd61e8e75636e99805a057628068c88f6897d29d4965",
+  "notes": "Clean progress bar styling, Chat Heads skin fix",
+  "mandatory": true
+}

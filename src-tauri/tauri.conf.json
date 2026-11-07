@@ -1,0 +1,36 @@
+{
+  "productName": "MineDash Launcher",
+  "version": "1.4.5",
+  "identifier": "community.minedash.launcher",
+  "build": {
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "security": {
+      "csp": "default-src 'self' ipc: http://ipc.localhost; img-src 'self' asset: http://asset.localhost https://asset.localhost asset://* data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:",
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["**"]
+      }
+    },
+    "windows": [
+      {
+        "title": "MineDash Launcher",
+        "width": 1160,
+        "height": 720,
+        "minWidth": 980,
+        "minHeight": 620,
+        "decorations": false,
+        "center": true,
+        "backgroundColor": "#0a0c0f"
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "resources": ["../resources/*"],
+    "icon": ["icons/icon.ico"]
+  }
+}

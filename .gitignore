@@ -1,0 +1,49 @@
+# Server infrastructure & bot
+TGBot/
+deploy/
+Mod/
+
+# Node & Vite
+node_modules/
+dist/
+dist-electron/
+dist-ssr/
+*.local
+
+# Rust & Tauri
+src-tauri/target/
+**/target/
+Cargo.lock
+
+# Build binaries and large assets in resources
+resources/*.exe
+resources/*.zip
+release/
+
+# Logs & Debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+crash.txt
+stderr.log
+stdout.log
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+credentials.txt
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/
+.idea/
